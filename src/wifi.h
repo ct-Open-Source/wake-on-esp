@@ -45,6 +45,6 @@ void wifiSetup(bool onDemand = false) {
   strcpy(mqtt_port, custom_mqtt_port.getValue());
   strcpy(mqtt_user, custom_mqtt_user.getValue());
   strcpy(mqtt_password, custom_mqtt_password.getValue());
-  strcpy(mqtt_password, custom_mqtt_topic.getValue());
+  strcpy(mqtt_topic, custom_mqtt_topic.getValue());
   strcpy(mqtt_fingerprint, custom_mqtt_fingerprint.getValue());
 }
